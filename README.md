@@ -22,7 +22,7 @@ but i did not want to use my sql skills :)
     df = spark.sql(query)
 ```
 
-# Why not Scala
+## Why not Scala
 Simply because I did not set my editor(vscode) for it and already have a pyspark env.
 
 
