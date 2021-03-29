@@ -10,7 +10,7 @@ but i did not want to use my sql skills :)
 ```py
     def expressions()
         for metric in metrics:
-            yield """
+            yield f"""
                 max(case <cond> then event_date else null end) <col_name>
                 # or
                 sum(...)
