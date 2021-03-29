@@ -35,7 +35,11 @@ Simply because I did not set my editor(vscode) for it and already have a pyspark
 ## Tests
 `pytest`
 
-### Running
+
+## Settings
+See .env file for additional settings
+
+## Running
 ```sh
 spark-submit --py-files dist/adidascs-0.1.0.tar.gz app.py \
     --page_types news movies \
